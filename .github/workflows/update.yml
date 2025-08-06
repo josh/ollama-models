@@ -17,11 +17,11 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
 
-      - name: Checkout gh-pages branch
+      - name: Checkout library branch
         uses: actions/checkout@v4
         with:
-          ref: "gh-pages"
-          path: "public"
+          ref: "library"
+          path: "library"
 
       - name: Install htmlq
         run: |
@@ -44,9 +44,9 @@ jobs:
           else
               echo "committed=false" >>"$GITHUB_OUTPUT"
           fi
-        working-directory: public/
+        working-directory: library/
 
       - name: Push changes
         if: steps.commit.outputs.committed == 'true'
-        run: git push origin refs/heads/gh-pages
-        working-directory: public/
+        run: git push origin refs/heads/library
+        working-directory: library/

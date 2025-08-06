@@ -43,13 +43,13 @@ pull() {
 }
 
 for model in $(models); do
-	mkdir -p "public/$model"
+	mkdir -p "library/$model"
 	for tag in $(tags "$model"); do
-		touch "public/$model/$tag.json"
-		if ! pull "$model" "$tag" "./public/$model/$tag.json"; then
+		touch "library/$model/$tag.json"
+		if ! pull "$model" "$tag" "./library/$model/$tag.json"; then
 			echo "Failed to update $model:$tag" >&2
-			rm -f "public/$model/$tag.json"
-			rmdir "public/$model" 2>/dev/null || true
+			rm -f "library/$model/$tag.json"
+			rmdir "library/$model" 2>/dev/null || true
 		fi
 	done
 done

@@ -1,6 +1,6 @@
 # ollama-models
 
-Index of available [Ollama](https://ollama.com) models. Tracked in git in JSON format.
+Index of available [Ollama](https://ollama.com) models. Tracked in git, in JSON format.
 
 ```
 $ curl https://josh.github.io/ollama-models/gpt-oss/latest.json

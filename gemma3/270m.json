@@ -1,0 +1,32 @@
+{
+  "config": {
+    "digest": "sha256:bd5a7db492d670d3c537c40c326ec776a2b3581818496fe2bb41fe0488d4345a",
+    "mediaType": "application/vnd.docker.container.image.v1+json",
+    "size": 490
+  },
+  "layers": [
+    {
+      "digest": "sha256:29005e200100bf723304e3a030c0365636df5efb45fe7ae3200389d7f042fca3",
+      "from": "/Users/ollama/.ollama/models/blobs/sha256-29005e200100bf723304e3a030c0365636df5efb45fe7ae3200389d7f042fca3",
+      "mediaType": "application/vnd.ollama.image.model",
+      "size": 241410464
+    },
+    {
+      "digest": "sha256:4b19ac7dd2fb1ab2f2818b73454c5a9128ca39875a8fcf686a6b1c36100a0d68",
+      "mediaType": "application/vnd.ollama.image.template",
+      "size": 476
+    },
+    {
+      "digest": "sha256:3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132",
+      "mediaType": "application/vnd.ollama.image.license",
+      "size": 8431
+    },
+    {
+      "digest": "sha256:339e884a40f6708bc761d367f0c08e448d5bb6f16b3961c340e44e0e4835a004",
+      "mediaType": "application/vnd.ollama.image.params",
+      "size": 61
+    }
+  ],
+  "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+  "schemaVersion": 2
+}

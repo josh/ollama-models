@@ -1,15 +1,20 @@
 {
   "config": {
-    "digest": "sha256:991197bf6ec9d04a8e2b68cc5c6041adf39d856c8d3947ecd04bff7fdd47fdfb",
+    "digest": "sha256:3901c6a1d7c2a4b1a1d4acb6423a3ad6eef227810e6f4acb267a90da75fc40cc",
     "mediaType": "application/vnd.docker.container.image.v1+json",
-    "size": 342
+    "size": 416
   },
   "layers": [
     {
       "digest": "sha256:0800cbac9c2064dde519420e75e512a83cb360de3ad5df176185dc69652fc515",
-      "from": "/Users/michaelyang/.ollama/models/blobs/sha256-0800cbac9c2064dde519420e75e512a83cb360de3ad5df176185dc69652fc515",
+      "from": "embeddinggemma:300m-bf16",
       "mediaType": "application/vnd.ollama.image.model",
       "size": 621867104
+    },
+    {
+      "digest": "sha256:1adbfec9dcf025cbf301c072f3847527468dcfa399da7491ee4a1c9e9f1b33e9",
+      "mediaType": "application/vnd.ollama.image.license",
+      "size": 8363
     },
     {
       "digest": "sha256:45dc10444b87e50e9c97d26ca2449f4c810ba1fc48d3d25e98d8917e0c39dad5",

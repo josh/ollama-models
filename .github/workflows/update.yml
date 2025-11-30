@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
     concurrency: git-push-${{ github.ref }}
 
     steps:

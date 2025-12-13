@@ -1,24 +1,19 @@
 {
   "config": {
-    "digest": "sha256:7a04a21e7c13f98d1009df7259598d6b77237dff6785531adc4d3d44b31ac080",
+    "digest": "sha256:22eb5c960e5fcd76cb4916c43224d8589813f3ce02d8707164b807c16210aff6",
     "mediaType": "application/vnd.docker.container.image.v1+json",
-    "size": 588
+    "size": 514
   },
   "layers": [
     {
-      "digest": "sha256:3c9af22ff0acd89c7335e92e4b947569b089e7448971c98d72b017d346453ae3",
+      "digest": "sha256:3ea32f882c990baebcfe6ab5cda2e3167d54ab16d7937c0b9aa3db11aba01574",
       "mediaType": "application/vnd.ollama.image.model",
-      "size": 6022221024
+      "size": 6022221312
     },
     {
-      "digest": "sha256:ea9ec42474e0b11615d2287c0a4b25f89cd1bd84d034113696dfd6af6ba1ae5d",
+      "digest": "sha256:5b74c26b9e0b6358e73d0a7eb2f955105097e7bd10b45fa0d2a50f0a906e0798",
       "mediaType": "application/vnd.ollama.image.template",
-      "size": 823
-    },
-    {
-      "digest": "sha256:23f5c31c0aee976f476f5caf82605e02bbb28a7181c5f37089017b8658c2f288",
-      "mediaType": "application/vnd.ollama.image.system",
-      "size": 2411
+      "size": 3413
     },
     {
       "digest": "sha256:43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",

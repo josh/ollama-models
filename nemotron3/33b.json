@@ -1,0 +1,23 @@
+{
+  "config": {
+    "digest": "sha256:de7e7edd5b20aa0138ae6878435fad270beedc5162e2eaeeeed58068fac10267",
+    "mediaType": "application/vnd.docker.container.image.v1+json",
+    "size": 416
+  },
+  "layers": [
+    {
+      "digest": "sha256:02025860dddec7ec009768f05966d941e0a89b470e805e136018149d1dabcf26",
+      "from": "nemotron3:33b-q4_K_M",
+      "mediaType": "application/vnd.ollama.image.model",
+      "size": 27638621088
+    },
+    {
+      "digest": "sha256:aab95a9bd775d0c5e89a596251101ad8bd5964fdd09d3c0805c81f91ee976fea",
+      "from": "nemotron3:33b-q4_K_M",
+      "mediaType": "application/vnd.ollama.image.license",
+      "size": 10128
+    }
+  ],
+  "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+  "schemaVersion": 2
+}
